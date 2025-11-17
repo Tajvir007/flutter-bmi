@@ -1,16 +1,23 @@
-# bmi_calculator
+# BMI Calculator – Flutter (Module 13 Assignment)
 
-A new Flutter project.
+A clean and fully functional **BMI Calculator App** built using Flutter.  
+The app supports **multiple weight & height units**, performs correct conversions, calculates BMI, and displays the result using proper category & color indicators.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features
 
-A few resources to get you started if this is your first Flutter project:
+###  Weight Input  
+- Supports **kg** and **lb (pounds)**  
+- Uses toggle/dropdown to switch units  
+- Accepts decimal values (e.g., 70.5 kg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+###  Height Input  
+- Supports **meters (m)**  
+- **centimeters (cm)**  
+- **feet + inches (ft/in)**  
+- Auto inch carry (e.g., `5 ft 15 in → 6 ft 3 in`)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###  Accurate Unit Conversion  
+Used formulas:
+
